@@ -22,23 +22,33 @@ selector{
 body{
     font-family: verdana, sans-serif;
     font-size: 14px;
-    color: #4F545F;   
+    /*color: #4F545F;*/
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
 }
 .info{
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 h2{
-    background-color: #55b3c5;
+    background-color: #0f6172 ;    
     margin: 0;
     padding: 20px;
     text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 fieldset{
     /*border: 2px dashed #DDDDDD;*/
-    border-color: #55b3c5;
+    border-color: #286672;
     margin: 20px;
     padding: 10px;
     text-align: center;
+
+}
+img{
+    size: 100px;
 }
 legend{
     font-weight: 900;
@@ -52,26 +62,12 @@ fieldset > span{
     display: block;
 }
 
-.formElement{
-    padding: 5px 10px;
-    width: 300px;
-    margin: 1px;
-}
-
-.optionContainer{
-    margin-top: 15px;
-}
-
-#rate{
-    width: 250px;
-}
-
 .clickable{
     padding: 10px 20px;
     margin-left: 15px;
     color: white;
     border: 0;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 5px;
     width: 100px;
 }
@@ -80,58 +76,33 @@ fieldset > span{
     /*opacity: .8;*/
 }
 
-.reset-btn{
-    background-color: tomato;
-}
-.reset-btn:hover{
-    background-color: rgb(245, 111, 88);
-}
-
-.submit-btn{
-    background-color: teal;
-}
-.submit-btn:hover{
-    background-color: rgb(17, 148, 148);
-}
-
 ul {
    /*background-color: #cccccc; */
    overflow: auto;
-   list-style: none;
-   margin: 0;
-   padding: 0;
+   /*list-style: none;*/
+   list-style: square;
+   margin: 5;
+   padding: 15;
 }
 
 ul:hover{
     background-color: cadetblue;
     opacity: .8;
+    font-size: 20;
     color: white;
     cursor: pointer;
 }
 
-.menu{
-    float: left;
-    padding: 20px;
+.experience{
+    font-family: cursive;
+    background-color: rgb(26, 99, 99);
 }
-
-table{
-    margin: auto 10px;
-    border: 1px solid #eeeeee;
-    border-collapse: collapse;
+.description{
+    color: rgb(216, 208, 208);
 }
-
-th, td{
-    border: 1px solid #eeeeee;
-    padding: 15px 35px;
-    color: #999999;
-}
-
-th.theading{
-    background-color: #55b3c5;
-    color: white;
-}
-
-tr:hover{
-    background-color: #f4f4f4;
-    color: #555555;
+.interest{
+    list-style: square;
+    color: rgb(214, 214, 213);
+    padding: 15px;
+    margin: 5px;
 }
